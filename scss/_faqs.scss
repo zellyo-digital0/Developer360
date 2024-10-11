@@ -1,0 +1,99 @@
+.FrequentlyAsked {
+  padding: 100px 0;
+  h3 {
+    color: #000;
+    text-align: left;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 120% */
+    margin-bottom: 32px;
+  }
+  .accordion {
+    .accordion-item {
+      padding: 40px;
+      border: 0;
+      border-radius: 8px;
+      background: rgb(244 244 244 / 50%);
+      margin-bottom: 20px;
+      .accordion-header {
+        --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23171924'/%3E%3Cpath d='M21 13C21 12.4477 20.5523 12 20 12C19.4477 12 19 12.4477 19 13L21 13ZM19.2929 27.7071C19.6834 28.0976 20.3166 28.0976 20.7071 27.7071L27.0711 21.3431C27.4616 20.9526 27.4616 20.3195 27.0711 19.9289C26.6805 19.5384 26.0474 19.5384 25.6569 19.9289L20 25.5858L14.3431 19.9289C13.9526 19.5384 13.3195 19.5384 12.9289 19.9289C12.5384 20.3195 12.5384 20.9526 12.9289 21.3431L19.2929 27.7071ZM19 13L19 27L21 27L21 13L19 13Z' fill='white'/%3E%3C/svg%3E") !important;
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23171924'/%3E%3Cpath d='M21 13C21 12.4477 20.5523 12 20 12C19.4477 12 19 12.4477 19 13L21 13ZM19.2929 27.7071C19.6834 28.0976 20.3166 28.0976 20.7071 27.7071L27.0711 21.3431C27.4616 20.9526 27.4616 20.3195 27.0711 19.9289C26.6805 19.5384 26.0474 19.5384 25.6569 19.9289L20 25.5858L14.3431 19.9289C13.9526 19.5384 13.3195 19.5384 12.9289 19.9289C12.5384 20.3195 12.5384 20.9526 12.9289 21.3431L19.2929 27.7071ZM19 13L19 27L21 27L21 13L19 13Z' fill='white'/%3E%3C/svg%3E");
+        --bs-accordion-btn-icon-width: 40px;
+        --bs-accordion-btn-icon-width: 40px;
+        .accordion-button {
+          padding: 0;
+          background-color: transparent;
+          border: 0;
+          box-shadow: none;
+          color: #000;
+          font-family: Proxima Nova;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 40px; /* 166.667% */
+          text-transform: capitalize;
+        }
+      }
+    }
+    .accordion-collapse {
+      .accordion-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 20px;
+        p {
+          strong {
+            font-weight: 400;
+          }
+          color: #000;
+          font-family: Proxima Nova;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 31px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.FrequentlyAsked2 {
+    padding: 86px 0;
+    h3 {
+      font-size: 43.393px;
+      line-height: 52.072px;
+      margin-bottom: 28px;
+    }
+    .accordion {
+      .accordion-item {
+        padding: 35px;
+        margin-bottom: 17px;
+        .accordion-header {
+          .accordion-button {
+            font-size: 20.829px;
+            line-height: 34.715px; /* 166.667% */
+          }
+        }
+      }
+      .accordion-collapse {
+        .accordion-body {
+          padding-top: 18px;
+          p {
+            strong {
+              font-weight: 400;
+            }
+            font-size: 19.093px;
+            line-height: 26.904px; /* 140.909% */
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

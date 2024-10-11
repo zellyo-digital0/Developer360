@@ -1,0 +1,660 @@
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 2550px) {
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) and (max-width: 2099.98px) {
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1440px) and (max-width: 1699.98px) {
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1439.98px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 1199.98px) {
+  .banner .itemLeft p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner .itemImg {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .Experience .itemLeft img {
+    width: 370px;
+  }
+  .Experience .itemLeft .box {
+    top: -85px;
+  }
+  .whyChoose .item h4,
+  .whyChoose .item .h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .whyChoose .item p {
+    font-size: 14px;
+  }
+  .Connect .mapConnect {
+    margin-top: -50px;
+    width: 98%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Connect .mapConnect .item .media-body {
+    margin-left: 20px;
+  }
+  footer .item ul li a {
+    font-size: 14px;
+  }
+  footer .item ul li {
+    margin-top: 15px;
+  }
+  footer .copyright p {
+    font-size: 16px;
+  }
+  // Portfolio start
+  .Portfolio {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .itemWrapp {
+      height: 100%;
+    }
+    .item {
+      height: 100%;
+      p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21.697px; /* 125% */
+        height: auto;
+        opacity: 1;
+        transition: all ease 0.6s;
+        margin-top: 20px;
+        margin-bottom: 0px;
+      }
+      &:hover {
+        img {
+          margin-top: 0px;
+          opacity: 1;
+          margin-bottom: 20px;
+          transition: all ease 0.6s;
+        }
+        h4 {
+          margin-top: 0px;
+          margin-bottom: 20px;
+          transition: all ease 0.6s;
+        }
+        p {
+          margin-top: 20px;
+          height: 100%;
+          opacity: 1;
+          transition: all ease 0.6s;
+          margin-bottom: 0;
+        }
+      }
+      h4 {
+        font-size: 27.772px;
+        width: 100%;
+      }
+    }
+  }
+  // Portfolio end
+  .OurValues .d-flex .item {
+    width: 275px;
+  }
+  .OurValues .d-flex .item p {
+    font-size: 16.093px;
+    line-height: 24.375px;
+  }
+  .ConsultingSuccess .item h2,
+  .ConsultingSuccess .item .h2 {
+    font-size: 60.729px;
+    line-height: 70px;
+    margin-bottom: 0;
+  }
+  .ConsultingSuccess .item p {
+    font-size: 16.093px;
+    line-height: 24px;
+  }
+  .ConsultingSuccess .item {
+    padding: 40px 20px;
+    height: 100%;
+  }
+  .gameWrapp {
+    text-align: center;
+    .leftImg {
+      width: 100%;
+    }
+    .rightText {
+      width: 100%;
+    }
+  }
+  .Support .itemLeft {
+    width: 100%;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 991.98px) {
+  .BlogItem .leftWrapp .item .itemText {
+    width: 100%;
+    max-width: 100%;
+  }
+  .BlogItem {
+    padding-top: 87px;
+    .row {
+      --bs-gutter-x: 24px !important;
+    }
+  }
+  .Experience .itemLeft .box {
+    top: 0;
+    position: static;
+    display: block;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .Experience .itemRight {
+    width: 100%;
+  }
+  .Experience {
+    margin-bottom: 57px;
+  }
+  .EsteemedClients .itemleft p {
+    width: 100%;
+  }
+  .EsteemedClients .imgItem .imgBox {
+    border-right: 0;
+    min-height: auto;
+    margin-bottom: 10px;
+  }
+  .EsteemedClients .imgItem {
+    border-bottom: 0;
+  }
+  .EsteemedClients .itemleft p,
+  .EsteemedClients .itemleft h2,
+  .EsteemedClients .itemleft .h2 {
+    text-align: center;
+  }
+  .latestBlog .item .imgBox img {
+    width: 100%;
+  }
+  .whyChoose .item {
+    border-right: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .OurValues .d-flex {
+    gap: 30px;
+  }
+  .OurValues .d-flex .item {
+    width: 45%;
+  }
+
+  .blog .BlogDetails .blogTop h1,
+  .blog .BlogDetails .blogTop .h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .blog .BlogDetails .blogTop .blogTopText p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .blog h2,
+  .blog .h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+  .blog p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .blog h4,
+  .blog .h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .blog .BlogTextStyle .item ul li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+  }
+  .blog {
+    padding-bottom: 70px;
+    padding-top: 80px;
+  }
+  .blog .BlogDetails .blogTop ul li span {
+    font-size: 12px;
+  }
+  .OurValues .d-flex .item::after {
+    display: none;
+  }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+  .OurValues .d-flex {
+    gap: 30px;
+  }
+  .OurValues .d-flex .item {
+    width: 100%;
+  }
+  .banner .itemLeft h1,
+  .banner .itemLeft .h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .banner .itemLeft h1 strong,
+  .banner .itemLeft .h1 strong {
+    font-size: 38px;
+  }
+  .banner .itemLeft p {
+    font-size: 18px;
+  }
+  .banner .itemLeft a span,
+  .Unleashing .itemRight a span,
+  .latestBlog .viewMoe a,
+  .Portfolio .viewMoe a {
+    font-size: 12px;
+  }
+  .banner .itemLeft a img,
+  .Unleashing .itemRight a img {
+    margin-right: 5px;
+    width: 16px;
+  }
+  .banner .itemLeft a,
+  .Unleashing .itemRight a,
+  .latestBlog .viewMoe a,
+  .Portfolio .viewMoe a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Portfolio .item h4,
+  .Portfolio .item .h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .Experience .itemLeft .box h4,
+  .Experience .itemLeft .box .h4 {
+    font-size: 60px;
+  }
+  .Experience .itemLeft .box h6,
+  .Experience .itemLeft .box .h6 {
+    font-size: 18px;
+  }
+  .Experience .itemLeft .box {
+    width: 180px;
+    padding: 25px;
+  }
+  .Experience .itemRight h2,
+  .Experience .itemRight .h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+  .Experience .itemRight p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .commonItem h2,
+  .commonItem .h2,
+  .CompanyOverview .box h2,
+  .CompanyOverview .box .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .commonItem p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Portfolio .item ul li a {
+    font-size: 14px;
+  }
+  .Portfolio .item {
+    padding: 30px 20px 30px 20px;
+  }
+  .Unleashing .itemLeft h2,
+  .Unleashing .itemLeft .h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .Unleashing .itemLeft p {
+    font-size: 16px;
+  }
+  .EsteemedClients .itemleft h2,
+  .EsteemedClients .itemleft .h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+  .EsteemedClients .itemleft p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Spectrum.Feedback .sliderWrapp .sliderBody .item .feedbackText p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .Connect .mapConnect .item .imgBox {
+    width: 50px;
+    height: 52px;
+  }
+  .Connect .mapConnect .item .imgBox img {
+    max-width: 25px;
+  }
+  .Connect .mapConnect .item .media-body strong {
+    font-size: 18px;
+  }
+  footer .copyright ul {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  footer .copyright p {
+    text-align: center;
+  }
+  footer .itemLeft p {
+    width: 100%;
+  }
+  .Connect .mapConnect {
+    margin-top: -20px;
+  }
+  header .navbar-brand img {
+    width: 190px;
+  }
+  .CompanyOverview .box p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .aboutTitle {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  .aboutTitle h1,
+  .aboutTitle .h1 {
+    font-size: 32px;
+  }
+  .CompanyOverview .box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .OurValues .d-flex .item h4,
+  .OurValues .d-flex .item .h4 {
+    font-size: 24px;
+  }
+  .ConsultingSuccess .item h2,
+  .ConsultingSuccess .item .h2 {
+    font-size: 40.729px;
+    line-height: 50px;
+    margin-bottom: 0;
+  }
+  .ConsultingSuccess .item {
+    padding: 30px 15px;
+  }
+
+  .FrequentlyAsked h3,
+  .FrequentlyAsked .h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .FrequentlyAsked .accordion .accordion-item {
+    padding: 30px 20px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(244, 244, 244, 0.5);
+    margin-bottom: 20px;
+  }
+  .FrequentlyAsked
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .FrequentlyAsked .accordion .accordion-item .accordion-header {
+    --bs-accordion-btn-icon-width: 25px;
+  }
+  .FrequentlyAsked .accordion .accordion-collapse .accordion-body p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .FrequentlyAsked {
+    padding: 80px 0;
+  }
+  .BlogItem .leftWrapp .item ul li span {
+    font-size: 12px;
+  }
+
+  .gameWrapp .itemRight {
+    padding-left: 0;
+  }
+
+  .gameWrapp .itemRight h1,
+  .gameWrapp .itemRight .h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .gameWrapp .itemRight h2,
+  .gameWrapp .itemRight .h2 {
+    font-size: 28px;
+    line-height: 40.072px;
+  }
+  .gameWrapp .itemRight p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .features .title h2,
+  .features .title .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .features .item h4,
+  .features .item .h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .features .item img {
+    margin-bottom: 0;
+  }
+  .WhatWill h2,
+  .WhatWill .h2,
+  .KeyFeatures .titleText h2,
+  .KeyFeatures .titleText .h2 {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+  .WhatWill .item {
+    min-height: 180px;
+  }
+  .WhatWill .item h4,
+  .WhatWill .item .h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .whatMore .itemLeft p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .KeyFeatures .KeyItem .itemLeft h2,
+  .KeyFeatures .KeyItem .itemLeft .h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .KeyFeatures .KeyItem .itemMid h4,
+  .KeyFeatures .KeyItem .itemMid .h4 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .KeyFeatures .KeyItem .itemMid p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .whyDeveloper .titleText h2,
+  .whyDeveloper .titleText .h2,
+  .Launch .itemLeft h2,
+  .Launch .itemLeft .h2,
+  .onlineOffline .itemRight .itemTop h2,
+  .onlineOffline .itemRight .itemTop .h2,
+  .Support h2,
+  .Support .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item p,
+  .Launch .itemLeft p,
+  .onlineOffline .itemRight .itemTop p,
+  .onlineOffline .itemRight .item p,
+  .Support .itemLeft .item p {
+    font-size: 16px;
+  }
+  .Support .itemLeft .item h4,
+  .Support .itemLeft .item .h4 {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item .media .media-body h4,
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item .media .media-body .h4 {
+    font-size: 18px;
+    line-height: 56px;
+  }
+  .onlineOffline .itemRight .item h4,
+  .onlineOffline .itemRight .item .h4 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2 h3,
+  .FrequentlyAsked.FrequentlyAsked2 .h3 {
+    font-size: 32.393px;
+    line-height: 40.072px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 18px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2
+    .accordion
+    .accordion-collapse
+    .accordion-body
+    p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .fixedCall {
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+  }
+  .fixedCall ul li {
+    margin-bottom: 8px;
+  }
+  header {
+    padding: 10px 0px 10px 0;
+  }
+  .Spectrum .sliderWrapp .sliderBody .item {
+    margin: 0 10px;
+    padding: 30px 15px 20px 15px;
+    min-height: 230px;
+  }
+  .Modal2 .modal-dialog .modal-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight button {
+    width: 190px;
+    gap: 6px;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 6px 15px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight h2,
+  .Modal2 .modal-dialog .modal-body .itemRight .h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight {
+    padding-left: 0;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem {
+    margin-bottom: 20px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem input {
+    font-size: 12px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight button svg {
+    align-self: center;
+    width: 16px;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+}
+
+/*Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 414px) {
+}
+
+/*Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+
+/*Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+}
+
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}
+
+/* 
+2560*1440
+2160*1440
+1920×1080
+1600×900
+1536×864
+1440×900
+1366×768    
+1280×720    
+1280×800    
+1280×1024   
+1024×768    
+768×1024
+ */
